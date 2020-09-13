@@ -1,10 +1,10 @@
 
 <form action="" method="POST">
   <label>Errors Count: 
-    <input type="text" name="errorsCount" value="<?php if (isset($_REQUEST['errorsCount'])) echo $_REQUEST['errorsCount'];?>">
+    <input type="text" name="errorsCount" value="<?php if (isset($_REQUEST['errorsCount'])) echo $_REQUEST['errorsCount']; ?>">
   </label>
   <label>Warnings Count: 
-    <input type="text" name="warningsCount" value="<?php if (isset($_REQUEST['warningsCount'])) echo $_REQUEST['warningsCount'];?>">
+    <input type="text" name="warningsCount" value="<?php if (isset($_REQUEST['warningsCount'])) echo $_REQUEST['warningsCount']; ?>">
   </label>
   <input type="submit">
 </form>
